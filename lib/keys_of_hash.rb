@@ -6,5 +6,6 @@ class Hash
         animals[name][country]
       else
         return animals
+      end
   end
 end
