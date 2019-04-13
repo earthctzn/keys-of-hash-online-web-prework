@@ -1,11 +1,8 @@
 class Hash
   def keys_of(arguments)
-    animals = []
-    arguments.each do |name, country| 
-      if country == "Panama"
-        animals[name][country]
-      else
-        return animals
-      end
-    end
+    # code goes here
+  def keys_of(*arguments)
+    # Create new array of keys when arguments match hash values. Replace false values with nil and then remove with compact.
+    self.map { |key, value| arguments.include?(value) ? key : nil }.compact
   end
+end 
