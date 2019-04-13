@@ -2,6 +2,7 @@ class Hash
   def keys_of(arguments)
     animals = []
     arguments.each do |name, country| 
-      country.each do |n, |
+      if country == "Panama"
+        animals["Panama"]
   end
 end
