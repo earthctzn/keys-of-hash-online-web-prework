@@ -3,6 +3,6 @@ class Hash
     animals = []
     arguments.each do |name, country| 
       if country == "Panama"
-        animals["Panama"]
+        animals[name] ""
   end
 end
